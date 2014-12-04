@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/AppGeo/knex-postgis",
   "devDependencies": {
+    "knex": "^0.7.3",
     "tap-spec": "^2.1.1",
     "tape": "^3.0.3"
   }
