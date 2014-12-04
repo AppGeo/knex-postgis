@@ -1,0 +1,28 @@
+{
+  "name": "knex-postgis",
+  "version": "0.0.0",
+  "description": "Spatial extension to Knex.js for PostGIS",
+  "main": "lib/",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AppGeo/knex-postgis.git"
+  },
+  "keywords": [
+    "knex",
+    "postgis",
+    "spatial",
+    "extension",
+    "postgresql",
+    "geometry",
+    "gis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AppGeo/knex-postgis/issues"
+  },
+  "homepage": "https://github.com/AppGeo/knex-postgis"
+}
