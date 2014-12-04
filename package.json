@@ -4,7 +4,7 @@
   "description": "Spatial extension to Knex.js for PostGIS",
   "main": "lib/",
   "scripts": {
-    "test": "node test"
+    "test": "node test | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/AppGeo/knex-postgis/issues"
   },
-  "homepage": "https://github.com/AppGeo/knex-postgis"
+  "homepage": "https://github.com/AppGeo/knex-postgis",
+  "devDependencies": {
+    "tap-spec": "^2.1.1",
+    "tape": "^3.0.3"
+  }
 }
